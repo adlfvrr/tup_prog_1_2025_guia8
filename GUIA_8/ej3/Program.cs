@@ -47,10 +47,6 @@ namespace ej3
                 Console.WriteLine("Límite de ingresos alcanzado.");
                 Console.ReadKey();
             }
-            static void Main(string[] args)
-            {
-                Console.WriteLine("Hello, World!");
-            }
         }
         static void OrganizarLista()
         {
@@ -137,7 +133,7 @@ namespace ej3
                 Console.WriteLine("No se pudo determinar la lista. Es obligatorio el ingreso de 3 alumnos.");
             }
             else {
-                Console.WriteLine($"El alumno con mayor nota es {nombmayor} con la nota {notamayor}\nEl alumno con nota media es {nombmedio} con la nota {notamedia}\nEl alumno con menor nota es {nombmenor} con la nota {notamenor}");
+                Console.WriteLine($"El alumno con mayor numero de libreta es {nombmayor} con el numero {notamayor}\nEl alumno con numero de libreta medio es {nombmedio} con el numero {notamedia}\nEl alumno con menor numero de libreta es {nombmenor} con el numero {notamenor}");
                 }
                 Console.ReadKey();
         }
